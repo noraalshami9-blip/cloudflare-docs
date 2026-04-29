@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SAIFANA الرقمية - شريكك الاستراتيجي في التحول الرقمي الفاخر 2026">
+    <title>SAIFANA الرقمية | الريادة التقنية الفاخرة</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap');
+        body { font-family: 'Cairo', sans-serif; }
+        .hero-bg { 
+            background: linear-gradient(135deg, #0a1628 0%, #1c2f4f 100%), url('https://picsum.photos/id/1015/2000/1500') center/cover no-repeat fixed;
+        }
+        .gold-gradient { background: linear-gradient(90deg, #fcd34d, #facc15); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .glass { background: rgba(255,255,255,0.12); backdrop-filter: blur(44px); border: 1px solid rgba(245,158,11,0.55); }
+        .card-hover { transition: all 1.4s cubic-bezier(0.34, 1.56, 0.64, 1); }
+        .card-hover:hover { transform: translateY(-45px) scale(1.15); box-shadow: 0 0 90px rgba(245,158,11,0.45); }
+        .typing { overflow: hidden; border-right: 4px solid #fcd34d; white-space: nowrap; animation: typing 7.5s steps(65, end) forwards, blink 1.2s step-end infinite; }
+        .glow { text-shadow: 0 0 50px rgba(245,158,11,0.8); }
+        .team-img { transition: all 0.6s ease; }
+        .team-card:hover .team-img { transform: scale(1.1); }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 overflow-x-hidden">
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 w-full bg-slate-900/95 backdrop-blur-3xl z-50 border-b border-amber-400/10">
+        <div class="max-w-7xl mx-auto px-8 py-6 flex justify-between items-center">
+            <div class="flex items-center gap-5">
+                <div class="w-16 h-16 bg-gradient-to-br from-amber-400 via-yellow-400 to-amber-600 rounded-3xl flex items-center justify-center text-5xl font-black text-slate-950 shadow-2xl ring-4 ring-amber-400/50 animate-pulse glow">SA</div>
+                <div>
+                    <h1 class="text-4xl font-black tracking-tighter">SAIFANA</h1>
+                    <p class="text-amber-400 text-xs tracking-[5px] -mt-1">الرقمية</p>
+                </div>
+            </div>
+            <div class="hidden lg:flex gap-10 text-lg font-medium">
+                <a href="#home" class="hover:text-amber-400 transition">الرئيسية</a>
+                <a href="#vision" class="hover:text-amber-400 transition">رؤيتنا</a>
+                <a href="#team" class="hover:text-amber-400 transition">فريقنا</a>
+                <a href="#success" class="hover:text-amber-400 transition">قصص النجاح</a>
+                <a href="#services" class="hover:text-amber-400 transition">خدماتنا</a>
+                <a href="#contact" class="hover:text-amber-400 transition">اتصل بنا</a>
+            </div>
+            <!-- رقم واتساب محدث -->
+            <a href="https://wa.me/963995155627" target="_blank" 
+               class="flex items-center gap-3 bg-amber-400 hover:bg-yellow-300 text-slate-950 px-8 py-4 rounded-3xl font-bold transition shadow-xl">
+                <i class="fa-brands fa-whatsapp text-2xl"></i> تواصل فوري
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="home" class="hero-bg min-h-screen flex items-center pt-24 relative">
+        <div class="max-w-7xl mx-auto px-8 z-10">
+            <div class="max-w-3xl">
+                <div class="inline-flex glass px-8 py-3 rounded-3xl text-sm font-semibold mb-8 glow">رؤية 2030 • الابتكار الرقمي</div>
+                <h1 class="text-7xl lg:text-[7.6rem] font-black leading-none tracking-tighter">
+                    SAIFANA<br>
+                    <span class="gold-gradient typing inline-block glow">نحول الرؤى إلى إمبراطوريات رقمية</span>
+                </h1>
+                <p class="mt-10 text-2xl text-slate-300">حلول تقنية فاخرة متكاملة بالذكاء الاصطناعي للشركات الطموحة.</p>
+                <div class="mt-14 flex flex-wrap gap-6">
+                    <button onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})" 
+                            class="bg-amber-400 text-slate-950 px-16 py-7 rounded-3xl text-2xl font-bold hover:scale-105 transition flex items-center gap-4 shadow-2xl">
+                        ابدأ مشروعك الآن
+                        <i class="fa-solid fa-rocket"></i>
+                    </button>
+                    <a href="#team" class="border-2 border-white/70 hover:border-amber-400 px-12 py-7 rounded-3xl text-xl font-semibold transition">تعرف على فريقنا</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision -->
+    <section id="vision" class="py-28 bg-slate-900">
+        <div class="max-w-7xl mx-auto px-8 text-center">
+            <h2 class="text-5xl font-bold mb-6">رؤيتنا</h2>
+            <p class="max-w-4xl mx-auto text-2xl text-slate-300">أن نكون المحرك الرئيسي للتحول الرقمي الفاخر في المنطقة.</p>
+        </div>
+    </section>
+
+    <!-- Team -->
+    <section id="team" class="py-28 bg-black">
+        <div class="max-w-7xl mx-auto px-8">
+            <h2 class="text-5xl font-bold text-center mb-16">فريق SAIFANA</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+                <div class="glass rounded-3xl overflow-hidden card-hover team-card">
+                    <img src="https://picsum.photos/id/64/400/300" class="w-full h-64 object-cover team-img">
+                    <div class="p-6 text-center">
+                        <h4 class="font-bold text-xl">أحمد السليمان</h4>
+                        <p class="text-amber-400">الرئيس التنفيذي</p>
+                        <p class="text-sm text-slate-400 mt-2">15+ سنة خبرة في التحول الرقمي</p>
+                    </div>
+                </div>
+
+                <div class="glass rounded-3xl overflow-hidden card-hover team-card">
+                    <img src="https://picsum.photos/id/65/400/300" class="w-full h-64 object-cover team-img">
+                    <div class="p-6 text-center">
+                        <h4 class="font-bold text-xl">لينا العتيبي</h4>
+                        <p class="text-amber-400">مديرة الذكاء الاصطناعي</p>
+                        <p class="text-sm text-slate-400 mt-2">خبيرة AI وتعلم الآلة</p>
+                    </div>
+                </div>
+
+                <div class="glass rounded-3xl overflow-hidden card-hover team-card">
+                    <img src="https://picsum.photos/id/66/400/300" class="w-full h-64 object-cover team-img">
+                    <div class="p-6 text-center">
+                        <h4 class="font-bold text-xl">خالد الدوسري</h4>
+                        <p class="text-amber-400">رئيس التطوير التقني</p>
+                        <p class="text-sm text-slate-400 mt-2">متخصص Full-Stack & Blockchain</p>
+                    </div>
+                </div>
+
+                <div class="glass rounded-3xl overflow-hidden card-hover team-card">
+                    <img src="https://picsum.photos/id/67/400/300" class="w-full h-64 object-cover team-img">
+                    <div class="p-6 text-center">
+                        <h4 class="font-bold text-xl">مريم الفارس</h4>
+                        <p class="text-amber-400">مديرة التسويق الرقمي</p>
+                        <p class="text-sm text-slate-400 mt-2">حملات ناجحة لأكثر من 120 عميل</p>
+                    </div>
+                </div>
+
+                <!-- أحمد حميد سوريا -->
+                <div class="glass rounded-3xl overflow-hidden card-hover team-card col-span-1 md:col-span-2 lg:col-span-1">
+                    <img src="https://picsum.photos/id/201/400/300" class="w-full h-64 object-cover team-img" alt="أحمد حميد سوريا">
+                    <div class="p-6 text-center">
+                        <h4 class="font-bold text-xl">أحمد حميد سوريا</h4>
+                        <p class="text-amber-400">مدير تطوير الأعمال والشراكات الاستراتيجية</p>
+                        <p class="text-sm text-slate-400 mt-2">12+ سنة خبرة في بناء الشراكات الدولية وتوسع الأعمال في أسواق الخليج والشرق الأوسط</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Stories -->
+    <section id="success" class="py-28 bg-slate-900">
+        <div class="max-w-7xl mx-auto px-8">
+            <h2 class="text-5xl font-bold text-center mb-16">قصص النجاح</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="glass p-8 rounded-3xl card-hover">
+                    <div class="text-amber-400 text-5xl mb-4">+1380%</div>
+                    <h4 class="font-bold text-2xl mb-2">مجموعة الريادة</h4>
+                    <p class="text-slate-400">"من متجر تقليدي إلى منصة إلكترونية رائدة في 4 أشهر."</p>
+                </div>
+                <div class="glass p-8 rounded-3xl card-hover">
+                    <div class="text-amber-400 text-5xl mb-4">580K</div>
+                    <h4 class="font-bold text-2xl mb-2">تطبيق سوقي</h4>
+                    <p class="text-slate-400">"580 ألف مستخدم نشط بفضل حلول SAIFANA الذكية."</p>
+                </div>
+                <div class="glass p-8 rounded-3xl card-hover">
+                    <div class="text-amber-400 text-5xl mb-4">99.5%</div>
+                    <h4 class="font-bold text-2xl mb-2">بنك المستقبل</h4>
+                    <p class="text-slate-400">"أعلى معدلات أمان وكفاءة بعد الشراكة."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="py-28 bg-black">
+        <div class="max-w-7xl mx-auto px-8">
+            <h2 class="text-5xl font-bold text-center mb-4">خدماتنا الفاخرة</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="glass p-10 rounded-3xl card-hover">
+                    <i class="fa-solid fa-laptop-code text-6xl text-amber-400 mb-8"></i>
+                    <h3 class="text-2xl font-bold mb-4">تطوير المواقع والتطبيقات</h3>
+                    <p class="text-slate-400">Next.js • Flutter • Laravel</p>
+                </div>
+                <div class="glass p-10 rounded-3xl card-hover">
+                    <i class="fa-solid fa-bullhorn text-6xl text-amber-400 mb-8"></i>
+                    <h3 class="text-2xl font-bold mb-4">التسويق الرقمي</h3>
+                    <p class="text-slate-400">SEO • حملات • سوشيال ميديا</p>
+                </div>
+                <div class="glass p-10 rounded-3xl card-hover">
+                    <i class="fa-solid fa-brain text-6xl text-amber-400 mb-8"></i>
+                    <h3 class="text-2xl font-bold mb-4">الذكاء الاصطناعي</h3>
+                    <p class="text-slate-400">روبوتات • أتمتة • حلول مخصصة</p>
+                </div>
+                <div class="glass p-10 rounded-3xl card-hover">
+                    <i class="fa-solid fa-shield-halved text-6xl text-amber-400 mb-8"></i>
+                    <h3 class="text-2xl font-bold mb-4">الأمن السيبراني</h3>
+                    <p class="text-slate-400">حماية • اختبارات • امتثال</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-28 bg-gradient-to-br from-slate-900 to-black">
+        <div class="max-w-2xl mx-auto px-8 text-center">
+            <h2 class="text-5xl font-bold mb-6">جاهزون لبناء مستقبلك الرقمي؟</h2>
+            <form id="contactForm" class="space-y-8">
+                <input type="text" placeholder="الاسم الكامل" class="w-full bg-slate-800 border border-slate-700 rounded-3xl px-8 py-6 focus:border-amber-400 outline-none text-lg">
+                <input type="email" placeholder="البريد الإلكتروني" class="w-full bg-slate-800 border border-slate-700 rounded-3xl px-8 py-6 focus:border-amber-400 outline-none text-lg">
+                <textarea placeholder="وصف المشروع أو الاستفسار" rows="6" class="w-full bg-slate-800 border border-slate-700 rounded-3xl px-8 py-6 focus:border-amber-400 outline-none text-lg"></textarea>
+                <button type="button" onclick="submitForm()" 
+                        class="w-full bg-gradient-to-r from-amber-400 to-yellow-400 text-slate-950 py-7 rounded-3xl text-2xl font-bold hover:brightness-110 transition-all active:scale-95">إرسال الطلب الآن</button>
+            </form>
+            <p id="successMsg" class="hidden mt-10 text-emerald-400 text-2xl font-medium">✅ تم استلام طلبك بنجاح! سنتواصل معك خلال ساعات.</p>
+        </div>
+    </section>
+
+    <!-- Floating WhatsApp - محدث -->
+    <a href="https://wa.me/963995155627" target="_blank" 
+       class="fixed bottom-8 left-8 bg-green-500 hover:bg-green-600 w-16 h-16 rounded-3xl flex items-center justify-center shadow-2xl text-4xl z-50 transition-all animate-pulse">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <footer class="bg-black py-16 text-center text-slate-500 text-sm">
+        © 2026 SAIFANA الرقمية — جميع الحقوق محفوظة<br>
+        <span class="text-xs">شريكك الاستراتيجي في التحول الرقمي</span>
+    </footer>
+
+    <script>
+        function submitForm() {
+            const msg = document.getElementById('successMsg');
+            msg.classList.remove('hidden');
+            setTimeout(() => msg.classList.add('hidden'), 7000);
+            document.getElementById('contactForm').reset();
+        }
+    </script>
+</body>
+</html>
